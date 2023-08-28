@@ -78,32 +78,36 @@ recebaMensagem(mensagemUsuario);
 */
 /*3
 const funcaoSoma = (a, b) => {
-  const soma = Number(a) + Number(b);
-};
-
-const funcaoSubtracao = (a, b) => {
-  const subtracao = Number(a - b);
-};
-
-const funcaoDivisao = (a, b) => {
-  const divisao = Number(a / b);
-};
-
-const funcaoMultiplicacao = (a, b) => {
-  const multiplicacao = Number(a * b);
-};
-
-let primeiroNumero = prompt("Digite um número:");
-let segundoNumero = prompt("Digite outro número:");
-
-const soma = funcaoSoma(primeiroNumero, segundoNumero);
-const subtracao = funcaoSubtracao(primeiroNumero, segundoNumero);
-const divisao = funcaoDivisao(primeiroNumero, segundoNumero);
-const multiplicacao = funcaoMultiplicacao(primeiroNumero, segundoNumero);
-
-console.log(`Números inseridos: ${primeiroNumero} e ${segundoNumero}`);
-console.log(`Soma: ${soma}`);
-console.log(`Diferença: ${subtracao}`);
-console.log(`Multiplicação: ${multiplicacao}`);
-console.log(`Divisão: ${divisao}`);
+    const soma = Number(a) + Number(b);
+    return soma
+  };
+  
+  const funcaoSubtracao = (a, b) => {
+    const subtracao = Number(a - b);
+    return subtracao
+  };
+  
+  const funcaoDivisao = (a, b) => {
+    const divisao = Number(a / b);
+    return divisao
+  };
+  
+  const funcaoMultiplicacao = (a, b) => {
+    const multiplicacao = Number(a * b);
+    return multiplicacao
+  };
+  
+  let primeiroNumero = prompt("Digite um número:");
+  let segundoNumero = prompt("Digite outro número:");
+  
+  const soma = funcaoSoma(primeiroNumero, segundoNumero);
+  const subtracao = funcaoSubtracao(primeiroNumero, segundoNumero);
+  const divisao = funcaoDivisao(primeiroNumero, segundoNumero);
+  const multiplicacao = funcaoMultiplicacao(primeiroNumero, segundoNumero);
+  
+  console.log(`Números inseridos: ${primeiroNumero} e ${segundoNumero}`);
+  console.log(`Soma: ${soma}`);
+  console.log(`Diferença: ${subtracao}`);
+  console.log(`Multiplicação: ${multiplicacao}`);
+  console.log(`Divisão: ${divisao}`);
 */
